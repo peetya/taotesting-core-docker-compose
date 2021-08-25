@@ -1,0 +1,7 @@
+services:
+  core:
+    container_name: taotesting_core
+    image: taotesting/core:latest
+    ports:
+    - 8080:80
+
